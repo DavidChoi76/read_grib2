@@ -1,0 +1,19 @@
+name: grib2
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - xarray>=0.15.0
+  - pandas
+  - netcdf4>=1.2.5
+  - numpy>=1.11.2
+  - distributed
+  - toolz
+  - matplotlib
+  - geopandas
+  - pandas
+  - jupyter
+  - eccodes 
+  - pip
+  - pip:
+    - cfgrib
